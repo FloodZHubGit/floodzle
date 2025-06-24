@@ -378,7 +378,7 @@ function changeKeyboardColor(letter, status){
             }
         }
 
-    } else if(status = "correct"){
+    } else if(status === "correct"){
         console.log("la lettre" + letter + "est correcte")
         if(letter == "A"){
             if(statusA == "none" || statusA == "present"){
